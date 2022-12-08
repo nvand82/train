@@ -2,8 +2,10 @@
 import './style.css';
 
 // Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
 var food = 30;
 var cost = 1000000;
-console.log("Hello world!");
+prompt('are you hungry?')
+if(prompt == 'yes'){
+  food -= 1
+  console.log(food);
+}
